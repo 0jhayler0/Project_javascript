@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var botones = document.getElementsByClassName('button');
+    var button = document.getElementsByClassName('button');
 
-    for (var i = 0; i < botones.length; i++) {
-        botones[i].addEventListener('click', function() {
+    for (var i = 0; i < button.length; i++) {
+        button[i].addEventListener('click', function() {
             var p1 = document.getElementById('p1');
             var p2 = document.getElementById('p2');
 
